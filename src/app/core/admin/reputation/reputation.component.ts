@@ -82,6 +82,7 @@ export class ReputationComponent implements OnInit {
     valueAxis.renderer.minLabelPosition = 0.01;
 
     // Create series
+    /*
     let series1 = chart.series.push(new am4charts.LineSeries());
     series1.dataFields.valueY = "italy";
     series1.dataFields.categoryX = "year";
@@ -92,6 +93,7 @@ export class ReputationComponent implements OnInit {
     series1.legendSettings.valueText = "{valueY}";
     series1.visible = false;
 
+    
     let series2 = chart.series.push(new am4charts.LineSeries());
     series2.dataFields.valueY = "germany";
     series2.dataFields.categoryX = "year";
@@ -100,6 +102,7 @@ export class ReputationComponent implements OnInit {
     series2.bullets.push(new am4charts.CircleBullet());
     series2.tooltipText = "Place taken by {name} in {categoryX}: {valueY}";
     series2.legendSettings.valueText = "{valueY}";
+    */
 
     let series3 = chart.series.push(new am4charts.LineSeries());
     series3.dataFields.valueY = "uk";
@@ -109,7 +112,7 @@ export class ReputationComponent implements OnInit {
     series3.bullets.push(new am4charts.CircleBullet());
     series3.tooltipText = "Place taken by {name} in {categoryX}: {valueY}";
     series3.legendSettings.valueText = "{valueY}";
-
+    
     // Add chart cursor
     chart.cursor = new am4charts.XYCursor();
     chart.cursor.behavior = "zoomY";

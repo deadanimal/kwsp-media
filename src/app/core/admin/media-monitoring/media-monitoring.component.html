@@ -96,18 +96,15 @@
                                 <th scope="row">{{data.description}}</th>
                                 <td>{{data.date}}</td>
                                 <td>
-                                    <button *ngIf="data.platform == 'Facebook'" type="button"
-                                        class="btn btn-facebook btn-icon-only">
-                                        <span class="btn-inner--icon"><i class="fab fa-facebook"></i></span>
-                                    </button>
-                                    <button *ngIf="data.platform == 'Twitter'" type="button"
-                                        class="btn btn-twitter btn-icon-only">
-                                        <span class="btn-inner--icon"><i class="fab fa-twitter"></i></span>
-                                    </button>
-                                    <button *ngIf="data.platform == 'Instagram'" type="button"
-                                        class="btn btn-instagram btn-icon-only">
-                                        <span class="btn-inner--icon"><i class="fab fa-instagram"></i></span>
-                                    </button>
+                                    <a class="avatar bg-white" *ngIf="data.platform == 'CNN'">
+                                        <img alt="Image placeholder" src="assets/img/logo/cnn-logo.png">
+                                    </a>
+                                    <a class="avatar bg-white" *ngIf="data.platform == 'BH'">
+                                        <img alt="Image placeholder" src="assets/img/logo/bh-logo.png">
+                                    </a>
+                                    <a class="avatar bg-white" *ngIf="data.platform == 'Bernama'">
+                                        <img alt="Image placeholder" src="assets/img/logo/bernama-logo.png">
+                                    </a>
                                 </td>
                                 <td>{{data.likes}}</td>
                                 <td>{{data.mentions}}</td>

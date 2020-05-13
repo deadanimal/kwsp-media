@@ -8,49 +8,49 @@ import noUiSlider from "nouislider";
 
 const mock = [
   {
-    description: 'Suruhanjaya Sekuriti',
+    description: 'iInvest',
     date: '04/03/2020',
-    platform: 'Twitter',
+    platform: 'CNN',
     likes: '01.3K',
     mentions: '09.6K',
     impact: '45.98'
   },
   {
-    description: 'Suruhanjaya Sekuriti',
+    description: 'iInvest',
     date: '08/19/2019',
-    platform: 'Twitter',
+    platform: 'CNN',
     likes: '03.9K',
     mentions: '55.9K',
     impact: '55.31'
   },
   {
-    description: 'SC SC',
+    description: 'Unit Trust',
     date: '09/19/2019',
-    platform: 'Instagram',
+    platform: 'Bernama',
     likes: '76.5K',
     mentions: '87.3K',
     impact: '10.54'
   },
   {
-    description: 'Suruhanjaya Sekuriti',
+    description: 'iInvest',
     date: '09/11/2019',
-    platform: 'Instagram',
+    platform: 'Bernama',
     likes: '81.8K',
     mentions: '07.3K',
     impact: '54.27'
   },
   {
-    description: 'Suruhanjaya Sekuriti',
+    description: 'iInvest',
     date: '01/09/2020',
-    platform: 'Twitter',
+    platform: 'CNN',
     likes: '62.5K',
     mentions: '13.9K',
     impact: '74.74'
   },
   {
-    description: 'Suruhanjaya Sekuriti',
+    description: 'iInvest',
     date: '07/02/2019',
-    platform: 'Instagram',
+    platform: 'Bernama',
     likes: '99.9K',
     mentions: '65.6K',
     impact: '41.86'
@@ -58,15 +58,15 @@ const mock = [
   {
     description: 'Invest Smart',
     date: '05/25/2019',
-    platform: 'Twitter',
+    platform: 'CNN',
     likes: '43.7K',
     mentions: '48.6K',
     impact: '62.68'
   },
   {
-    description: 'SC SC',
+    description: 'Unit Trust',
     date: '08/09/2019',
-    platform: 'Twitter',
+    platform: 'CNN',
     likes: '32.6K',
     mentions: '80.1K',
     impact: '37.71'
@@ -74,7 +74,7 @@ const mock = [
   {
     description: 'Invest Smart',
     date: '10/16/2019',
-    platform: 'Facebook',
+    platform: 'BH',
     likes: '32.0K',
     mentions: '19.4K',
     impact: '32.75'
@@ -82,7 +82,7 @@ const mock = [
   {
     description: 'Invest Smart',
     date: '04/18/2020',
-    platform: 'Instagram',
+    platform: 'Bernama',
     likes: '79.1K',
     mentions: '85.6K',
     impact: '58.14'

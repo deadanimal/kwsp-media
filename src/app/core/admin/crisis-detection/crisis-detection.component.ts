@@ -9,7 +9,7 @@ const mock = [
   {
     id: 1,
     date: '03/09/2020',
-    platform: 'Facebook',
+    platform: 'CNN',
     reference: 'ID208083',
     location: 'Singapore',
     status: 'Negative'
@@ -17,7 +17,7 @@ const mock = [
   {
     id: 2,
     date: '10/16/2019',
-    platform: 'Facebook',
+    platform: 'CNN',
     reference: 'ID591611',
     location: 'Malaysia',
     status: 'Positive'
@@ -25,7 +25,7 @@ const mock = [
   {
     id: 3,
     date: '06/05/2019',
-    platform: 'Instagram',
+    platform: 'Bernama',
     reference: 'ID521865',
     location: 'Malaysia',
     status: 'Negative'
@@ -33,7 +33,7 @@ const mock = [
   {
     id: 4,
     date: '12/30/2019',
-    platform: 'Facebook',
+    platform: 'CNN',
     reference: 'ID718236',
     location: 'Singapore',
     status: 'Positive'
@@ -41,7 +41,7 @@ const mock = [
   {
     id: 5,
     date: '04/08/2020',
-    platform: 'Twitter',
+    platform: 'BH',
     reference: 'ID126890',
     location: 'Malaysia',
     status: 'Negative'
@@ -49,7 +49,7 @@ const mock = [
   {
     id: 6,
     date: '12/09/2019',
-    platform: 'Instagram',
+    platform: 'Bernama',
     reference: 'ID824201',
     location: 'Malaysia',
     status: 'Positive'
@@ -57,7 +57,7 @@ const mock = [
   {
     id: 7,
     date: '01/17/2020',
-    platform: 'Facebook',
+    platform: 'CNN',
     reference: 'ID046668',
     location: 'Singapore',
     status: 'Negative'
@@ -65,7 +65,7 @@ const mock = [
   {
     id: 8,
     date: '06/21/2019',
-    platform: 'Instagram',
+    platform: 'Bernama',
     reference: 'ID401936',
     location: 'Singapore',
     status: 'Positive'
@@ -73,7 +73,7 @@ const mock = [
   {
     id: 9,
     date: '10/06/2019',
-    platform: 'Instagram',
+    platform: 'Bernama',
     reference: 'ID580019',
     location: 'Malaysia',
     status: 'Positive'
@@ -81,7 +81,7 @@ const mock = [
   {
     id: 10,
     date: '04/26/2020',
-    platform: 'Instagram',
+    platform: 'Bernama',
     reference: 'ID914765',
     location: 'Malaysia',
     status: 'Positive'

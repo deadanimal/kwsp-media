@@ -105,17 +105,14 @@ export class SocialAnalysisComponent implements OnInit {
     chart.legend = new am4charts.Legend();
 
     chart.data = [{
-      "country": "Facebook",
+      "country": "Bernama",
       "amount": 5019
     }, {
-      "country": "Twitter",
+      "country": "CNN",
       "amount": 3425
     }, {
-      "country": "Instagram",
+      "country": "Berita Harian",
       "amount": 1399
-    }, {
-      "country": "Youtube",
-      "amount": 1283
     }];
 
     this.chart = chart
@@ -339,7 +336,7 @@ export class SocialAnalysisComponent implements OnInit {
     series.labels.template.margin(4, 4, 4, 4);
     series.maxFontSize = am4core.percent(30);
 
-    series.text = "Bursa Saham Malaysia Covid Coronavirus Virus MCO RMO PKP PKPD Bank Cloud Social Media SCM SID Facebook Twitter Instagram";
+    series.text = "Bursa Saham Malaysia Covid Coronavirus Virus MCO RMO PKP PKPD Bank Cloud Social Media SCM SID BERNAMA Twitter Instagram Bernama CNN Berita Harian TV3 FOX";
 
     series.colors = new am4core.ColorSet();
     series.colors.passOptions = {}; // makes it loop
